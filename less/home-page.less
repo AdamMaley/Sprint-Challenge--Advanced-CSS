@@ -1,14 +1,13 @@
 // Home Content
-
 .home {
 
   @media @phone {
-    display       : flex;
-    flex-direction: column;
+
     align-items: center;
     width      : 90%;
     margin     : 0 auto;
-
+    
+  
   }
 
 }
@@ -27,6 +26,7 @@
     display       : flex;
     flex-direction: column;
     align-items   : center;
+   
   }
 
 }
@@ -39,6 +39,7 @@
   @media @phone {
     display       : flex;
     flex-direction: column;
+    align-items   : center;
   }
 
   img {
@@ -46,6 +47,12 @@
     margin       : 20px 2.5%;
     border-radius: 20px;
     height       : 100%;
+  }
+
+  @media @phone {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
   }
 }
 
@@ -60,10 +67,7 @@
     margin-top: 13px;
   }
 
-  @media @phone {
-    display       : flex;
-    flex-direction: column;
-  }
+  
 }
 
 .walk {
@@ -85,7 +89,9 @@
     }
 
     .signup-btn {
-      .button-decoration(@btn-bg-color, @main-font-color);
+      .button-decoration(@btn-bg-color, @porcelain, @btn-size, 10%);
+      padding: 1% 4%;
+      border: none;
     }
   }
 }
@@ -100,10 +106,7 @@
     border-radius: 10px;
   }
 
-  @media @phone {
-    display       : flex;
-    flex-direction: column;
-  }
+  
 }
 
 // home
