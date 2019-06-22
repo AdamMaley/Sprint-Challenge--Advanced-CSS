@@ -1,1 +1,62 @@
 // Navigation code here
+
+.main-navigation {
+
+    .navmixin(@nav-bg, @nav-font);
+
+    display: flex;
+    justify-content: center;
+    border: 1px solid @sea-shell;
+
+    nav {
+        display       : flex;
+        flex-direction: row;
+       
+        align-items   : baseline;
+        flex-direction: column;
+        width: 800px;
+    
+
+    }
+
+
+    h1 {
+        
+        
+        font-size: 4em;
+        align-self: center;
+        margin: 2%;
+
+        
+    }
+
+
+    ul {
+        
+       
+        display       : flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-around;
+        width: 450px;
+    }
+
+    li {
+        
+        margin: 2% 0;
+        
+
+
+    }
+
+    a {
+        
+        text-decoration: none;
+        font-size      : 2em;
+        color: @river-bend;
+
+    }
+
+
+
+}
